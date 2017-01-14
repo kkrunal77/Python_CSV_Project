@@ -1,0 +1,29 @@
+Python Interview Questions : 
+
+Important Note : 
+
+   > You have to use only base python packages for solving the 1st question.
+   	* That is, Dont use any numpy,pandas,scipy,scikit etc. 
+   > For 2nd question you can only use python pandas and numpy library, along with base packages.
+   > For 3rd question write only single genric regular expression which will work for all cases.
+   > Solve all or any two questions.
+   > Submit within a 4 days.
+
+1. Read the csv file into python program and perform the following tasks : 
+	a) Find the total number of row in the csv file, ignoring the rows where `prediction` in "None".
+	b) Find the distinct values in the `prediction` coloumn of csv.
+	c) Find the count of each distinct value appearing in the `prediction` coloumn of csv.
+	d) Submit the output of above question into csv file. 
+
+2. Implement Naive-Bayes algorithm with laplacian smoothing in python using provided csv file - tennis.csv as a training/test data; just as an example.   
+
+3. Write a single generic regular expression which can extract the following patterns, given in (), from given sentences:
+   
+   a) Bridgestone Duravis M700 HD Tire LT265/75R16/10                  (Extract : LT265/75R16/10)
+   b) Michelin Energy MXV4 S8 Tire P215/55R17 93V                      (Extract : P215/55R17 93V)
+   c) Bridgestone BLIZZAK DM-V2 Tire 235/55R18 (100T)                  (Extract : 235/55R18 )
+   d) Goodyear Eagle F1 Asymmetric A/S 215/45ZR17/XL Tire 91W          (Extract : 215/45ZR17/XL)
+   e) Bridgestone Blizzak DM-V1 Tire 275/60R18 113R BW                 (Extract : 275/60R18 113R BW)
+   f) Continental ExtremeWinterContact Tire LT285/70R17/8 118Q BW      (Extract : LT285/70R17/8 118Q BW)
+   g) MASTERCRAFT 285/70R17/E COURSER CXT OL TIRE                      (Extract : 285/70R17/E )
+   h) Pirelli Night Dragon Motorcycle Front Tire 130/90-16 2211500     (Extract : 130/90-16 )
